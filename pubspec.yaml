@@ -1,0 +1,56 @@
+name: klinkmediatama
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.2
+  intro_views_flutter: '^2.8.2'
+  google_fonts: ^0.3.5
+  shared_preferences: ^0.5.10
+  fluttertoast: ^7.0.4
+  carousel_slider: ^2.2.1
+  bmnav: ^0.3.4
+  flutter_svg: ^0.17.2
+  flutter_bootstrap: "^1.0.1"
+  flutter_slidable: ^0.5.7
+  flutter_stack_card: ^0.2.0+1
+  flutter_skeleton: ^0.1.0+1
+  http: ^0.12.2
+  datetime_picker_formfield: ^0.1.8
+  rxdart: ^0.20.0
+  intl: ^0.15.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/back3.jpg
+    - assets/exit.png
+    - assets/doctor.png
+    - assets/images12.png
+    - assets/sakit.png
+    - assets/rs.jpg
+    - assets/icn1.png
+    - assets/nointernet.jpg
+
+  fonts:
+    - family: opensans
+      fonts:
+        - asset: assets/font/OpenSansCondensed-Bold.ttf
+        - asset: assets/font/OpenSansCondensed-Light.ttf
+        - asset: assets/font/OpenSansCondensed-LightItalic.ttf
